@@ -1,0 +1,69 @@
+{
+  "name": "@portaler/core",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:7777",
+  "license": "GNU AGPLv3",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "lint": "eslint --ext .js,.jsx,.ts,.tsx --ignore-pattern '/node_modules/' ./src",
+    "lint:fix": "eslint --fix --ext .js,.jsx,.ts,.tsx --ignore-pattern '/node_modules/' ./src"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.56",
+    "@portaler/utils": "*",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "@use-it/event-listener": "^0.1.5",
+    "clsx": "^1.1.1",
+    "cytoscape": "3.15.0",
+    "cytoscape-cose-bilkent": "^4.1.0",
+    "fetchler": "^0.0.20",
+    "lodash": "^4.17.20",
+    "luxon": "^1.25.0",
+    "node-sass": "^4.14.1",
+    "react": "^16.13.1",
+    "react-cytoscapejs": "^1.2.1",
+    "react-dom": "^16.13.1",
+    "react-redux": "^7.2.2",
+    "react-scripts": "3.4.3",
+    "react-spring": "^8.0.27",
+    "redux": "^4.0.5",
+    "typescript": "~3.7.2"
+  },
+  "devDependencies": {
+    "@portaler/types": "*",
+    "@types/cytoscape": "^3.14.7",
+    "@types/jest": "^24.0.0",
+    "@types/lodash": "^4.14.161",
+    "@types/luxon": "^1.25.0",
+    "@types/node": "^12.0.0",
+    "@types/react": "^16.9.0",
+    "@types/react-cytoscapejs": "^1.1.0",
+    "@types/react-dom": "^16.9.0",
+    "@types/react-redux": "^7.1.11",
+    "eslint": "^6.6.0",
+    "eslint-config-prettier": "^6.12.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react-hooks": "^4.1.2",
+    "prettier-eslint": "^11.0.0",
+    "webpack-dev-server": "3.11.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

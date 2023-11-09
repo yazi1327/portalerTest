@@ -1,0 +1,16 @@
+.layout {
+  display: grid;
+  grid-template-columns: 350px calc(100% - 350px);
+  height: 100%;
+  padding: 0;
+  transition: 250ms;
+  min-height: calc(100vh - 4.2rem);
+
+  &.hideSidebar {
+    display: flex;
+  }
+
+  &.mistWalker {
+    min-height: calc(100vh - 8.4rem) !important;
+  }
+}
